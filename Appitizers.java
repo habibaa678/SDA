@@ -1,0 +1,28 @@
+package restaurantmanagementsystem;
+import java.lang.*;
+
+public class Appitizers extends FoodItem{
+	
+	private String size;
+	
+	public void setSize(String size){
+		this.size = size+"'";
+	}
+	
+	public String getSize(){
+		return this.size;
+	}
+	
+	public void showInfo(){
+		System.out.println("Food Type: Appitizers");
+		System.out.println("Food ID: "+fid);
+		System.out.println("Food Name: "+name);
+		System.out.println("Size: "+size);
+		System.out.println("Available Quantity: "+availableQuantity);
+		System.out.println("Price: "+price);
+	}
+
+    public void setName(String n1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}
